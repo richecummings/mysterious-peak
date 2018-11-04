@@ -1,5 +1,5 @@
 function localtunnel {
-  lt -s mysterious-peak-35677 --port 5000
+  lt -s 33bb2033-99a1-4ebb-b693-358282b701af --port 5000
 }
 until localtunnel; do
   echo "localtunnel server crashed"
